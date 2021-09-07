@@ -19,6 +19,7 @@ import TextField from "@material-ui/core/TextField";
 import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import { NextWeekRounded } from "@material-ui/icons";
+import Chart from "./chart";
 // import {BrowserRouter, Link, Switch, Route} from 'react-router-dom'
 
 const useStyles = makeStyles({
@@ -248,7 +249,7 @@ function Back(){
        </form>
        </Card>
        <Survey dark={dark}/>
-       
+       <Chart/>
     
      </ThemeProvider>
      </div>
